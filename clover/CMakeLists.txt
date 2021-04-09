@@ -303,7 +303,7 @@ if (CATKIN_ENABLE_TESTING)
   # rostests
   catkin_install_python(
     PROGRAMS
-      test/test_script
+      test/basic.test
     DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
 
   add_rostest(test/basic.test
