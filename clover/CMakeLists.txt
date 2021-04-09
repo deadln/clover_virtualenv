@@ -293,7 +293,7 @@ endif()
 
 if (CATKIN_ENABLE_TESTING)
   find_package(rostest REQUIRED)
-  add_rostest(test/basic.test)
+  #add_rostest(test/basic.test)
 
   # nosetests
   catkin_add_nosetests(test
@@ -306,7 +306,7 @@ if (CATKIN_ENABLE_TESTING)
       test/test_script
     DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
 
-  add_rostest(test/run_test_script.test
+  add_rostest(test/basic.test
     DEPENDENCIES ${PROJECT_NAME}_generate_virtualenv
   )
 endif()
