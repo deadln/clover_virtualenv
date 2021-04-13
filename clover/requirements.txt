@@ -4,3 +4,4 @@ geopy==1.11.0
 smbus2==0.3.0
 VL53L1X==0.0.5
 pymavlink==2.4.14
+pytest==6.2.3
