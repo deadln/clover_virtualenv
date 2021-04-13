@@ -119,7 +119,7 @@ generate_messages(
 # find_package(catkin REQUIRED catkin_virtualenv)
 
 # Generate the virtualenv
-catkin_generate_virtualenv()
+catkin_generate_virtualenv(INPUT_REQUIREMENTS requirements.in)
 
 # Make sure your python executables are installed using `catkin_install_python`:
 catkin_install_python(
