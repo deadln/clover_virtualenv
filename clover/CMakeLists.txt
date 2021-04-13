@@ -24,6 +24,7 @@ find_package(catkin REQUIRED COMPONENTS
   tf2_ros
   image_transport
   cv_bridge
+  catkin_virtualenv
 )
 
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake")
@@ -115,7 +116,7 @@ generate_messages(
 ##   * add "dynamic_reconfigure" to
 
 # Make sure to find-package `catkin_virtualenv`
-find_package(catkin REQUIRED catkin_virtualenv)
+# find_package(catkin REQUIRED catkin_virtualenv)
 
 # Generate the virtualenv
 catkin_generate_virtualenv()
