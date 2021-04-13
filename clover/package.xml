@@ -39,6 +39,7 @@
   <depend>web_video_server</depend>
   <depend>tf2_web_republisher</depend>
   <depend>python-lxml</depend>
+  <test_depend>ros_pytest</test_depend>
   <!-- <depend>python-pymavlink</depend> -->
   <!-- Use test_depend for packages you need only for testing: -->
   <!--   <test_depend>gtest</test_depend> -->
